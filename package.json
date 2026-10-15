@@ -1,0 +1,14 @@
+{
+  "name": "@sandsoftwaresolutions/cursor-pagination",
+  "version": "0.1.0",
+  "description": "Opaque cursor encoding and in-memory cursor pagination for JavaScript APIs.",
+  "type": "module",
+  "exports": { ".": { "types": "./src/index.d.ts", "import": "./src/index.js" } },
+  "files": ["src", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test", "pack:check": "npm pack --dry-run" },
+  "keywords": ["pagination", "cursor", "api", "offset", "infinite-scroll"],
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}
