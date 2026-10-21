@@ -6,6 +6,8 @@ Encode opaque cursors and paginate already-sorted API results without offset dri
 npm install @sandsoftwaresolutions/cursor-pagination
 ```
 
+Works with `import` and `require()`, and ships TypeScript types for both.
+
 ```js
 import { paginate } from "@sandsoftwaresolutions/cursor-pagination";
 
